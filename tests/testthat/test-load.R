@@ -3,3 +3,4 @@ testthat::test_that("load.label_colname works", {
   actual_output <- load.label_colname(testdata)
   testthat::expect_equal(actual_output,"label::English")
 })
+
